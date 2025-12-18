@@ -37,4 +37,4 @@ const MainHeader = () => {
         </header>
     )
 }
-export default mainHeader;
+export default MainHeader;
