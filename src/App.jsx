@@ -1,15 +1,11 @@
-import Home from "./pages/Home";
-import MainHeader from './components/MainHeader/MainHeader'
-function App(){
-  return (
-  <div className='App'>
-    <MainHeader />
-    <main>
-      <Home/>
-    </main>
+import React from 'react'
 
-  </div> 
+const App = () => {
+  return (
+    <div className='App'>
+
+    </div>
   )
-  
 }
-export default App;
+
+export default App
