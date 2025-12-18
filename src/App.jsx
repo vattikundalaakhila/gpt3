@@ -1,9 +1,14 @@
-import Home from "./pages/home";
+import Home from "./pages/Home";
+import MainHeader from "./components/MainHeader/MainHeader";
 
 function App(){
   return (
-  <div>
-<Home/>
+  <div className='App'>
+    <MainHeader />
+    <main>
+      <Home/>
+    </main>
+
   </div> 
   )
   
