@@ -1,5 +1,5 @@
 import React from 'react'
-import MainHeader from './components/MainHeader/MainHeader'
+import MainHeader from './components/Header/MainHeader'
 const App = () => {
   return (
     <div className='App'>
