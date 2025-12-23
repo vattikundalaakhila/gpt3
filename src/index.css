@@ -25,3 +25,30 @@ body{
   background-color: var(--main-bg) ;
   color: var(--text-color);
 }
+
+.pry_btn{
+  all: unset;
+  padding: 1em 2em;
+  font-size: 1.8rem;
+  width: max-content;
+}
+.pry_btn.active {
+  background: var(--pry-btn);
+}
+
+.pry_btn:hover {
+  cursor: pointer;
+  background: var(--pry-btn);
+}
+
+
+.gradient_text {
+  background: linear-gradient(90deg, var(--text-grad-1) 0%, var(--text-grad-2) 100%);
+   color: transparent; 
+  background-clip: text;
+}
+
+
+.layout{
+  padding: 0em 6%;
+}

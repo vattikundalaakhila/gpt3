@@ -1,9 +1,19 @@
-import React from 'react'
-import MainHeader from './components/Header/MainHeader'
-const App = () => {
-  return (
+
+import MainHeader from './components/Header/MainHeader';
+import Home from "./Pages/Home";
+
+
+
+
+function App(){
+  return(
     <div className='App'>
       <MainHeader/>
+      <main>
+        <Home/>
+        
+      </main>
+
     </div>
   )
 }

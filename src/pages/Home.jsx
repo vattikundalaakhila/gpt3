@@ -1,8 +1,13 @@
+import Banner from "../components/Banner/Banner";
+import Client from "../components/Client/Client";
+
 const Home = () => {
     return (
         <>
-        <br />
-     this is home where home components will go 
+    <Banner />
+    <Client/>
+
+    
      </>
     );
 

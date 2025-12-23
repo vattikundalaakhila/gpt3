@@ -1,0 +1,12 @@
+.client_images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 70px;
+    gap: 45px;
+
+
+}
+.client_images img{
+    width: 85px;
+}
