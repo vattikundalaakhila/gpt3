@@ -1,6 +1,12 @@
 import "./Banner.css";
 import bg_img from "../../assets/image1.png"
 import people_img from "../../assets/Ellipse 33.png"
+import people_img2 from "../../assets/Ellipse 35.png"
+import people_img3 from "../../assets/Ellipse 36.png"
+import people_img4 from "../../assets/Ellipse 31.png"
+import people_img5 from "../../assets/Ellipse 32.png"
+import people_img6 from "../../assets/Ellipse 34.png"
+
 
 
 const Banner = () => {
@@ -27,11 +33,11 @@ const Banner = () => {
 
     <div className="banner_section_bottom">
       <img src= {people_img} alt="person"/>
-      <img src= {people_img} alt="person"/>
-      <img src= {people_img} alt="person"/>
-      <img src= {people_img} alt="person"/>
-      <img src= {people_img} alt="person"/>
-      <img src= {people_img} alt="person"/>
+      <img src= {people_img2} alt="person"/>
+      <img src= {people_img3} alt="person"/>
+      <img src= {people_img4} alt="person"/>
+      <img src= {people_img5} alt="person"/>
+      <img src= {people_img6} alt="person"/>
       
       <p className="p_img">1.6k</p>
       <p className="p_tag">1,600 people requested access a visit in last 24 hours. </p>

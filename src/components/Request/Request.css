@@ -6,6 +6,7 @@
     gap: 40px;
     align-items: center;
     background-color: var(--footer_bg);
+    margin-top: 40px;
 }
 
 .request_section h2{
