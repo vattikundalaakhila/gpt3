@@ -1,0 +1,48 @@
+.access_section {
+    margin: 120px auto 30px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 4em;
+    padding: 0px 70px;
+}
+
+.access_section .access_section__left {
+    flex-basis: 40%;
+}
+
+.access_section .access_section__cards {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.access_section .access_section__left h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 1em;
+}
+
+.access_section .access_section__left a {
+    font-size: 1.6rem;
+    color: var(--accent-color);
+}
+
+.access_section .access_section__cards>div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.7em;
+    align-items: start;
+}
+
+.access_section .access_section__cards>div>h3 {
+    flex-basis: 25%;
+    font-size: 1.5rem;
+}
+
+.access_section .access_section__cards>div>p {
+    flex-basis: 60%;
+    font-size: 1.4rem;
+    color: var(--text-color2);
+}

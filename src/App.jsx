@@ -1,6 +1,7 @@
 
 import MainHeader from './components/Header/MainHeader';
 import Home from "./Pages/Home";
+import MainFooter from './components/mainFooter/Mainfooter';
 
 
 
@@ -13,9 +14,10 @@ function App(){
         <Home/>
         
       </main>
+      <MainFooter/>
 
     </div>
   )
 }
 
-export default App
+export default App;

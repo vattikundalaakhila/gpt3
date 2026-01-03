@@ -24,6 +24,7 @@ body{
   flex-direction: column;
   background-color: var(--main-bg) ;
   color: var(--text-color);
+  font-family: var(--font);
 }
 
 .pry_btn{
@@ -51,4 +52,11 @@ body{
 
 .layout{
   padding: 0em 6%;
+}
+.gradient_line span {
+  display: block;
+  background: linear-gradient(90deg, var(--text-grad-1) 0%, var(--text-grad-2) 100%);
+  width: 38px;
+  height: 3px;
+  border-radius: 4px;
 }
