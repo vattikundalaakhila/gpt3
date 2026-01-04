@@ -11,10 +11,9 @@
     width: 85px;
 }
 
-@media (width< 400px){
+@media (width< 1024px){
     .client_images{
-        flex-wrap: wrap;    
-       gap: 20px;
+        flex-wrap: wrap;
     }
 
 }

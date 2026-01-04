@@ -34,3 +34,17 @@
 .register_section{
     margin: 50px;
 }
+
+
+@media (max-width: 1024px){
+    .register_section{
+        margin: 0px;
+        padding: 30px 40px;
+    }
+    .register_section > div{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

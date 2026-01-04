@@ -26,3 +26,10 @@
     align-items: center;
 
 }
+
+/* @media (max-width: 1024px){
+    .request_section .request_para{
+        flex-direction: column;
+    }
+
+} */

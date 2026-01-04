@@ -89,3 +89,18 @@
   display: block;
 }
 
+@media (max-width:850px) {
+    .blog_section .blog_section__grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:640px) {
+    .blog_section .blog_section__grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog_section{
+        padding: 30px 30px;
+        /* margin: 10px 40px; */
+    }
+}

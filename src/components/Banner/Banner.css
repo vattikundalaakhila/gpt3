@@ -22,7 +22,7 @@
 }
 
 .banner_section_left h1 {
-    font-size: 6.2rem;
+    font-size: 5rem;
     font-weight: 800;
 }
 
@@ -81,4 +81,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width:1024px) {
+.banner_section{
+    flex-direction: column;
+}
+    
 }

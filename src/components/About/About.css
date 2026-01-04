@@ -88,3 +88,25 @@
     font-weight: 500;
     color: var(--text-color2);
 }
+
+@media (max-width: 1024px){
+    .about_section{
+        padding: 30px 30px;
+        margin: 10px 30px;
+    }
+    .about_section header{
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    .about_section__center{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .about_section__cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

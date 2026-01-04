@@ -46,3 +46,10 @@
     font-size: 1.4rem;
     color: var(--text-color2);
 }
+
+@media (max-width: 960px){
+    .access_section{
+        padding: 0px 40px;
+        flex-direction: column;
+    }
+}
