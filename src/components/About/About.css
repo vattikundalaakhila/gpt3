@@ -102,9 +102,9 @@
     .about_section__center{
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 40px;
     }
-    .about_section__cards{
+    .about_section .about_section__cards{
         display: flex;
         flex-direction: column;
     }
