@@ -1,31 +1,41 @@
-
 .banner_section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 100vh;
-    gap: 2em;
-   
+    gap: 3em;
 }
 
-.banner_section> * {
+/* both sections equal width */
+
+.banner_section > * {
     flex: 1;
 }
+
+/* right image */
+
 .banner_section_right img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
+
+/* left content */
 
 .banner_section_left {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1.6em;
 }
+
+/* heading */
 
 .banner_section_left h1 {
     font-size: 5rem;
     font-weight: 800;
+    line-height: 115%;
 }
+
+/* paragraph */
 
 .banner_section_left p {
     font-size: 2rem;
@@ -33,102 +43,156 @@
     color: var(--text-color2);
 }
 
-.banner_section_left>div {
-    display: flex;
+/* email input container */
+
+.banner_input_box{
+    display:flex;
+    max-width:520px;
+    width:100%;
 }
+
+/* email input */
 
 .banner_section_left input {
     all: unset;
     background: #052d56;
     padding: 0.8em 1em;
     font-size: 1.8rem;
-    flex: 0.8;
+    flex: 1;
     border-radius: 4px 0px 0px 4px;
 }
 
-.banner_section_left div .pry_btn {
-    /* flex: 0.4; */
-    /* flex-basis: 30%; */
-    border-radius: 0px 4px 4px 0px;
-}
-.banner_section_bottom{
-    padding: 20px 18px; 
-    display: flex;
-   
+/* button */
 
+.banner_section_left .pry_btn {
+    border-radius: 0px 4px 4px 0px;
+    white-space: nowrap;
 }
+
+/* people avatars section */
+
+.banner_section_bottom{
+    padding-top: 10px;
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+/* avatars */
+
 .banner_section_bottom img{
-    /* margin-left: -10px; */
-    width: 37px;
-    height: 37px;
-    
+    width:37px;
+    height:37px;
 }
-.banner_section_bottom .p_img{
-    background-color: aqua;
-    border-radius: 50px;
-    width: 37px;
-    height: 37px;
-    border: 2px solid white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+
+/* avatar overlap */
+
+.banner_section_bottom div:nth-of-type(1){
+    display:flex;
 }
+
 .banner_section_bottom div:nth-of-type(1) > *{
-    margin-left : -10px;
+    margin-left:-10px;
 }
 
 .banner_section_bottom div:nth-of-type(1) img:nth-of-type(1){
-    margin-left: 0px;
+    margin-left:0;
 }
+
+/* last avatar circle */
+
+.banner_section_bottom .p_img{
+    background-color:#ff8a71;
+    border-radius:50%;
+    width:37px;
+    height:37px;
+    border:2px solid white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:12px;
+    font-weight:600;
+}
+
+/* text beside avatars */
 
 .p_tag{
-    font-size: 14px !important;
-    /* margin-left: 20px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size:14px !important;
 }
 
-@media (max-width:1024px) {
+
+
+/* ================= TABLET ================= */
+
+@media (max-width:1024px){
+
 .banner_section{
-    flex-direction: column;
-    border: 1px solid white;
-     /* padding: 0px 40px;  */
+    flex-direction:column;
+    text-align:center;
 }
+
 .banner_section_left{
-    margin-top: 25px;
+    align-items:center;
 }
-.banner_section_left h1 {
-    font-size: 4rem;
-    font-weight: 800;
-    line-height: 120%;
+
+.banner_section_left h1{
+    font-size:3.8rem;
 }
 
 .banner_section_left p{
-    font-size: 1.3rem;
+    font-size:1.5rem;
 }
 
-.banner_section_left input {
-    padding: 0.4em 0.6em;
-    font-size: 1rem;
-    flex: 1;
+/* center input */
+
+.banner_input_box{
+    max-width:420px;
 }
+
+.banner_section_left input{
+    font-size:1.3rem;
+    padding:0.6em 0.9em;
+}
+
 .banner_section_left .pry_btn{
-    font-size: 1rem;
+    font-size:1.3rem;
 }
+
+/* avatar section */
+
 .banner_section_bottom{
-    padding: 0px;
-    flex-direction: column;
-    gap: 1em;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-direction:column;
+    gap:10px;
 }
-.banner_section_bottom >div:nth-of-type(1){
-    display: flex;
-    width: 100%;
-    border: 1px solid white;
+
 }
-    
+
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width:600px){
+
+.banner_section_left h1{
+    font-size:3rem;
+}
+
+.banner_section_left p{
+    font-size:1.3rem;
+}
+
+.banner_input_box{
+    max-width:320px;
+}
+
+.banner_section_left input{
+    font-size:1rem;
+}
+
+.banner_section_left .pry_btn{
+    font-size:1rem;
+}
+
 }

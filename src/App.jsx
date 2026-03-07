@@ -1,6 +1,6 @@
 
 import MainHeader from './components/Header/MainHeader';
-import Home from "./Pages/Home";
+import Home from "./pages/Home";
 import MainFooter from './components/mainFooter/Mainfooter';
 
 
