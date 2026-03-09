@@ -7,7 +7,9 @@ This project follows a component-based architecture where each component has its
 ---
 
 ## 🚀 Live Demo
-gpt3-a.netlify.app
+
+🔗 **Live Website:**  
+https://gpt3-a.netlify.app
 
 ---
 
